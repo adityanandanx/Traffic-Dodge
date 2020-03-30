@@ -1,0 +1,21 @@
+import random
+# SETTINGS
+# WINDOW
+WW = 400
+WH = 600
+TITLE = 'TRAFFIC DODGE'
+FPS = 60
+
+# COLORS
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+RED = (200, 50, 50)
+GREEN = (100, 255, 100)
+BLUE = (0, 0, 150)
+YELLOW = (255, 255, 0)
+
+# VEHICLES
+VEHICLE_LIST = [(random.randrange(20, WW, 100), 0)]
+
+# PLAYER
+pscore = 0
